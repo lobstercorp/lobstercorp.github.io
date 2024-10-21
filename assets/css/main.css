@@ -1,0 +1,347 @@
+
+@font-face {
+    font-family: SF Pro Display;
+    src: url(../fonts/SF-Pro-Display-Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: SF Pro Display;
+    src: url(../fonts/SF-Pro-Display-Black.otf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: SF Pro Display;
+    src: url(../fonts/SF-Pro-Display-Heavy.otf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: SF Pro Display;
+    src: url(../fonts/SF-Pro-Display-Semibold.otf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: SF Pro Display;
+    src: url(../fonts/SF-Pro-Display-Medium.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: SF Pro Display;
+    src: url(../fonts/SF-Pro-Display-Regular.otf);
+}
+@font-face {
+    font-family: SF Pro Display;
+    src: url(../fonts/SF-Pro-Display-Light.otf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: SF Pro Display;
+    src: url(../fonts/SF-Pro-Display-Ultralight.otf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: SF Pro Display;
+    src: url(../fonts/SF-Pro-Display-Thin.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url(../font/SF-Pro-Text-Regular.otf);
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url(../font/SF-Pro-Text-Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url(../font/SF-Pro-Text-Semibold.otf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url(../font/SF-Pro-Text-Medium.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url(../font/SF-Pro-Text-Light.otf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url(../font/SF-Pro-Text-Ultralight.otf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url(../font/SF-Pro-Text-Thin.otf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url(../font/SF-Pro-Text-Heavy.otf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url(../font/SF-Pro-Text-Black.otf);
+    font-weight: 900;
+}
+
+html, body{
+    font-family: 'SF Pro Display', sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header{
+    padding: 16px 0;
+}
+
+header a{
+    color: #000;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+}
+header a.active{
+    color: #808080;
+}
+
+footer{
+    font-family: 'SF Pro Text', sans-serif;
+    background-color: #1E1E1E;
+    padding: 40px 0;
+    color: #666;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #666;
+}
+
+.container{
+    position: relative;
+    max-width: 100%;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.btn-container{
+    display: flex;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-blue{
+    background-color: #2942ED;   
+    color: #fff;
+    padding: 24px 40px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn-white{
+    background-color: #fff;
+    color: #000;
+    padding: 24px 40px;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    mix-blend-mode: screen;
+    border: none;
+    box-shadow: none;
+}
+
+.section-main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 640px;
+    background-image: url("../images/bg_landing.png");
+    background-position: center calc(50% - 100px);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-main .dimm{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 5;
+}
+
+.section-main .title{
+    position: relative;
+    z-index: 10;
+}
+
+.section-main .heading{
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 100px;
+    margin: 0;
+    text-align: center;
+}
+
+.section-main .sub{
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+    line-height: 43px;
+    margin: 0;
+    text-align: center;
+}
+
+.section-about{
+    padding: 150px 0;
+}
+
+.section-about .heading{
+    margin-bottom: 20px;
+}
+
+.section-about .heading h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: #111;
+    line-height: 76px;
+    margin: 0;
+}
+
+.section-about .sub h4{
+    font-weight: 400;
+    font-size: 22px;
+    color: #666;
+    line-height: 30px;
+    margin: 0;
+}
+
+.section-about .sub{
+    margin-bottom: 30px;
+}
+
+.section-about .content{
+    flex: 1;
+}
+
+.section-about .image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-recruit{
+    position: relative;
+    padding: 230px 0;
+    background-image: url(../images/bg_section_recruit.jpeg);
+    background-position: center calc(50% - 210px);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-recruit .dimm{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 5;
+}
+
+.section-recruit .content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.section-recruit .content h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 76px;
+    margin: 0;
+    text-align: center;
+}
+
+/* about */
+.about-banner{
+    position: relative;
+    height: 480px;
+    background-image: url('../images/bg_top_about.jpeg');
+    background-position: center calc(50% - 310px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-banner .heading{
+    position: absolute;
+    z-index: 10;
+}
+
+.about-banner .dimm{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 5;
+}
+
+.about-banner .heading h2{
+    font-size: 76px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.about-content-section{
+    padding: 100px 0;
+}
+
+.about-content-section .heading h2{
+    padding: 0;
+    margin: 0;
+    font-size: 64px;
+    color: #111;
+    font-weight: 700;
+    line-height: 76px;
+}
+
+.about-content-section .sub{
+    margin-top: 30px;
+}
+
+.about-content-section .sub p{
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    color: #666;
+    line-height: 30px;
+}
