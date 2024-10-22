@@ -291,8 +291,8 @@ footer a{
 .about-banner{
     position: relative;
     height: 480px;
-    background-image: url('../images/bg_top_about.jpeg');
-    background-position: center calc(50% - 310px);
+    background-image: url('../images/bg_top_about.png');
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
